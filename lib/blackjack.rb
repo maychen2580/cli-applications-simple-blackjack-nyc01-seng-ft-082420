@@ -38,7 +38,9 @@ end
 
 def hit?(card_total)
   # code hit? here
-  
+  prompt_user
+  get_user_input
+  until card_total > 21
 
 def invalid_command
   # code invalid_command here
